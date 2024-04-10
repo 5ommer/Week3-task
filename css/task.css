@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; 
+}
+.ingredients, .coocking-steps{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+}
+.ingredients table, .coocking-steps ol{
+    border: 1px solid black;
+    margin: 10px auto;   
+    padding: 1rem;
+}
+.coocking-steps ol{
+    border: 1px solid red;
+    width: 75%;
+}
+
