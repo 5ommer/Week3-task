@@ -4,25 +4,42 @@
     box-sizing: border-box;
 }
 body {
-    background-color: chocolate;
+    background-color: rgb(104, 103, 103);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh; 
 }
-.ingredients, .coocking-steps{
-    border: 1px solid black;
-    width: 50%;
-    margin: 0 auto;
-    height: auto;
+.retsept-container{
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgb(126, 125, 124);
 }
-.ingredients table, .coocking-steps ol{
-    border: 1px solid black;
-    margin: 10px auto;   
-    padding: 1rem;
+.retsept-container h1, .image-container, .ingredients-container, .coocking-steps{
+    margin-bottom: 1rem;
 }
-.coocking-steps ol{
-    border: 1px solid red;
-    width: 75%;
+.image-container {
+    width: 100%;
+    height: 315px;
+    border: 10px solid rgba(105, 97, 97, 0.353);
+    background: linear-gradient(rgba(33, 23, 23, 0.37), rgba(52, 41, 41, 0.2)), url(https://cdn.lifehacker.ru/wp-content/uploads/2017/05/breakfast-2151201_1920-Cropped_1494110366-630x315.jpg);
+}
+.retsept *{
+    margin-bottom: 10px;
+}
+.ingredients{
+    padding-right: 15px;}
+.coocking-steps li{
+    list-style-type: style none;;
+}
+.amount{
+    text-align: right;
+}
+.coocking-steps{
+    list-style-position: inside;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
